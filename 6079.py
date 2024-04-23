@@ -1,6 +1,6 @@
 n = int(input())
-c, sum = 1, 0
-while sum<=n:
-    print(c)
-    sum+=c
+c, sum = 0, 0
+while sum<n:
     c+=1
+    sum+=c
+print(c)
